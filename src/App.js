@@ -3,15 +3,13 @@
 //创建外壳组件APP；这里面包括所有的组件
 import React from 'react'
 
-class App extends React.Component{
+// 创建并暴露
+export  default class App extends React.Component{
     render() {
         return(
             <div>
-                hello,
+               hello, {/* 一般不建议这样写，建议写成组件的形式 */}
             </div>
         )
     }
 }
-
-// 默认暴露
-export default App
